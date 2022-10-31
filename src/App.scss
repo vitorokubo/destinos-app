@@ -1,9 +1,19 @@
 .App{
-    height: 100vh;
+    height: 80vh;
     display:flex;
     flex-direction: row;
 
     align-items: center;
     justify-content: center;
+
     flex-wrap: wrap;
+}
+
+.Button{
+    display:flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+
+    margin:50px;
 }

@@ -8,9 +8,9 @@
   flex-direction: column;
 
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 
-  text-align:center;
+  text-align:left;
 
   color:gray;
   background-color:white;
@@ -18,4 +18,13 @@
   box-shadow:0 1px 3px rgba(0,0,0,0.2), 0 3px 5px rgba(0,0,0,0.1);
   border-radius: 15px;
   
+}
+
+.Title{
+  height: 15%;
+}
+
+.Body{
+  height: 80%;
+  display:flex;
 }

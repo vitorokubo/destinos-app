@@ -5,6 +5,9 @@ import FormContainer from './components/formcontainer'
 function App() {
   const [payLoad, setPayLoad] = useState({
     name: '',
+    email: '',
+    tel: '',
+    cpf: '',
     country: '',
     city: ''
   })
@@ -17,6 +20,8 @@ function App() {
     <>
       <div className="App">
         <FormContainer
+          setPayLoad={setPayLoad}
+          payLoad={payLoad}
           titulo="Dados Pessoais"
           type="Dados Pessoais"
         ></FormContainer>
@@ -27,7 +32,9 @@ function App() {
           type="Destinos"
         ></FormContainer>
       </div>
-      <button onClick={handleSubmit}>Enviar</button>
+      <div className="Button">
+        <button onClick={handleSubmit}>Enviar</button>
+      </div>
     </>
   )
 }

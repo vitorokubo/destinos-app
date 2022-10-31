@@ -1,0 +1,21 @@
+.DadosPessoais{
+    height:80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.Destinos{
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Input{
+    display:flex;
+    flex-direction: column;
+}
